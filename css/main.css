@@ -97,6 +97,14 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+tr:nth-child(even){
+  background-color: lightgreen;
+}
+
+tr:nth-child(odd){
+  background-color: lightgray;
+}
+
 .container{
     margin-left: 4rem;
     margin-right: 5rem;
